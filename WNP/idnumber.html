@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" /> 
+  <link rel="stylesheet" href="index.css" /> 
+  <title> Dashboard </title> 
+ </head> 
+ <body>  
+  <form>
+    <fieldset>
+
+      <legend>Enter Your Full Name: </legend>
+
+      <label for="fname">First Name:</label><br />
+      <input id="fname" type="text" placeholder="John"/>
+      <br />
+
+      <label for="mname">Middle Name:</label><br />
+      <input id="mname" type="text" placeholder="Bennet"/>
+      <br />
+
+      <label for="lname">Last Name:</label><br />
+      <input id="lname" type="text" placeholder="Smith" />
+      <br />
+
+      <label for="bbb">Birth Month & Date:</label><br />
+      <input id="bbb" type="text" placeholder="0227"/>
+      <input type="button" 
+              onclick= 'fullNum("fname", "mname", "lname", "bbb")';
+              value="Submit"/>
+      <br />
+      <label for="DL">Your Full DL Number:</label><br />
+      <input id="DL" type="text" placeholder="S530-429-085-151" disabled />
+    </fieldset>
+   </form>
+  </body>
+</html>
